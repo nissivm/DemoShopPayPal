@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+xcodeproj '/Users/nissivieiramiranda/Documents/Nissi_iOS_Apps/GitHub projects/DemoShop-PayPal/DemoShop-PayPal/DemoShop-PayPal.xcodeproj'
+pod 'PayPal-iOS-SDK'
+pod 'Firebase', '>= 2.5.0'
+pod 'MBProgressHUD', '~> 0.9.2'
+link_with 'DemoShop-PayPal', 'DemoShop-PayPalTests'

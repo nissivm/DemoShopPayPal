@@ -1,0 +1,100 @@
+{
+"ItemsForSale" : [
+  {
+    "position": 1,
+    "itemId": "DEMOX01",
+    "itemName": "Denim jacket",
+    "itemPrice": 70.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/denim-jacket.jpg"
+  },
+  {
+    "position": 2,
+    "itemId": "DEMOX02",
+    "itemName": "Green jacket",
+    "itemPrice": 100.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/green-jacket.jpg"
+  },
+  {
+    "position": 3,
+    "itemId": "DEMOX03",
+    "itemName": "Khaki jacket",
+    "itemPrice": 90.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/khaki-jacket.jpg"
+  },
+  {
+    "position": 4,
+    "itemId": "DEMOX04",
+    "itemName": "Leather jacket",
+    "itemPrice": 180.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/leather-jacket.jpg"
+  },
+  {
+    "position": 5,
+    "itemId": "DEMOX05",
+    "itemName": "Coloured pants",
+    "itemPrice": 120.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/coloured-pants.jpg"
+  },
+  {
+    "position": 6,
+    "itemId": "DEMOX06",
+    "itemName": "Denim pants",
+    "itemPrice": 100.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/denim-pants.jpg"
+  },
+  {
+    "position": 7,
+    "itemId": "DEMOX07",
+    "itemName": "Khaki pants",
+    "itemPrice": 80.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/khaki-pants.jpg"
+  },
+  {
+    "position": 8,
+    "itemId": "DEMOX08",
+    "itemName": "Leather pants",
+    "itemPrice": 150.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/leather-pants.jpg"
+  },
+  {
+    "position": 9,
+    "itemId": "DEMOX09",
+    "itemName": "Brown sweather",
+    "itemPrice": 110.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/brown-sweather.jpg"
+  },
+  {
+    "position": 10,
+    "itemId": "DEMOX010",
+    "itemName": "Gray sweather",
+    "itemPrice": 90.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/gray-sweather.jpg"
+  },
+  {
+    "position": 11,
+    "itemId": "DEMOX011",
+    "itemName": "Green sweather",
+    "itemPrice": 120.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/green-sweather.jpg"
+  },
+  {
+    "position": 12,
+    "itemId": "DEMOX012",
+    "itemName": "Khaki sweather",
+    "itemPrice": 130.00,
+    "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/khaki-sweather.jpg"
+  }
+],
+"Orders" : [
+  {
+    "orderId": "XXDEMO00",
+    "clientName": "John Doe"
+  }
+],
+"Clients" : [
+  {
+    "clientName": "John Doe",
+    "clientEmail": "John_doe@email.com"
+  }
+]
+}

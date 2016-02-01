@@ -7,12 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10E61EE29AF49703ED90FF68 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9830411AD39EC6E2584648C /* libPods.a */; };
+		2001021D1C5CECC200A8193E /* ShippingMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001021C1C5CECC200A8193E /* ShippingMethods.swift */; };
+		2033D1931C5BB8B800C45D24 /* Products_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033D1911C5BB8B800C45D24 /* Products_VC.swift */; };
+		2033D1941C5BB8B800C45D24 /* ShoppingCart_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033D1921C5BB8B800C45D24 /* ShoppingCart_VC.swift */; };
+		2033D1961C5BBDA600C45D24 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033D1951C5BBDA600C45D24 /* Constants.swift */; };
+		20377FEE1C5FAA81002D49F8 /* firebase_rules.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20377FEB1C5FAA81002D49F8 /* firebase_rules.rtf */; };
+		20377FEF1C5FAA81002D49F8 /* DemoShopPayPal-ServerSide.zip in Resources */ = {isa = PBXBuildFile; fileRef = 20377FEC1C5FAA81002D49F8 /* DemoShopPayPal-ServerSide.zip */; };
+		20377FF01C5FAA81002D49F8 /* firebase_initial_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 20377FED1C5FAA81002D49F8 /* firebase_initial_data.json */; };
+		20377FF31C5FACC4002D49F8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 20377FF11C5FACC4002D49F8 /* README.md */; };
+		20377FF41C5FACC4002D49F8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 20377FF21C5FACC4002D49F8 /* LICENSE */; };
+		20A4A9A31C5BB75C00702636 /* bag.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A4A99D1C5BB75C00702636 /* bag.png */; };
+		20A4A9A41C5BB75C00702636 /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A4A99E1C5BB75C00702636 /* card.png */; };
+		20A4A9A51C5BB75C00702636 /* minus-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A4A99F1C5BB75C00702636 /* minus-button.png */; };
+		20A4A9A61C5BB75C00702636 /* plus-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A4A9A01C5BB75C00702636 /* plus-button.png */; };
+		20A4A9A71C5BB75C00702636 /* shopping-cart-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A4A9A11C5BB75C00702636 /* shopping-cart-gray.png */; };
+		20A4A9A81C5BB75C00702636 /* shopping-cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A4A9A21C5BB75C00702636 /* shopping-cart.png */; };
+		20A4A9AB1C5BB79200702636 /* ItemForSaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A4A9A91C5BB79200702636 /* ItemForSaleCell.swift */; };
+		20A4A9AC1C5BB79200702636 /* ShoppingCartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A4A9AA1C5BB79200702636 /* ShoppingCartItemCell.swift */; };
+		20A4A9AF1C5BB7DC00702636 /* AuthenticationContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A4A9AE1C5BB7DC00702636 /* AuthenticationContainerView.swift */; };
+		20A4A9B51C5BB80C00702636 /* Auxiliar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A4A9B01C5BB80C00702636 /* Auxiliar.swift */; };
+		20A4A9B61C5BB80C00702636 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A4A9B11C5BB80C00702636 /* Device.swift */; };
+		20A4A9B71C5BB80C00702636 /* ItemForSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A4A9B21C5BB80C00702636 /* ItemForSale.swift */; };
+		20A4A9B81C5BB80C00702636 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A4A9B31C5BB80C00702636 /* Reachability.swift */; };
+		20A4A9B91C5BB80C00702636 /* ShoppingCartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A4A9B41C5BB80C00702636 /* ShoppingCartItem.swift */; };
 		20D756E01C5674F7004FF064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D756DF1C5674F7004FF064 /* AppDelegate.swift */; };
-		20D756E21C5674F7004FF064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D756E11C5674F7004FF064 /* ViewController.swift */; };
 		20D756E51C5674F7004FF064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D756E31C5674F7004FF064 /* Main.storyboard */; };
 		20D756E71C5674F7004FF064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D756E61C5674F7004FF064 /* Assets.xcassets */; };
 		20D756EA1C5674F7004FF064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D756E81C5674F7004FF064 /* LaunchScreen.storyboard */; };
 		20D756F51C5674F8004FF064 /* DemoShop_PayPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D756F41C5674F8004FF064 /* DemoShop_PayPalTests.swift */; };
+		20D757011C5679E1004FF064 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 20D757001C5679E1004FF064 /* Podfile */; };
+		20E13FB51C593FB7009557D4 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E13FB41C593FB7009557D4 /* Backend.swift */; };
+		6A2E84572D4DE87561723FFD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9830411AD39EC6E2584648C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +52,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2001021C1C5CECC200A8193E /* ShippingMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShippingMethods.swift; path = Objects/ShippingMethods.swift; sourceTree = "<group>"; };
+		2033D1911C5BB8B800C45D24 /* Products_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Products_VC.swift; path = "View Controllers/Products_VC.swift"; sourceTree = "<group>"; };
+		2033D1921C5BB8B800C45D24 /* ShoppingCart_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingCart_VC.swift; path = "View Controllers/ShoppingCart_VC.swift"; sourceTree = "<group>"; };
+		2033D1951C5BBDA600C45D24 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Objects/Constants.swift; sourceTree = "<group>"; };
+		20377FEB1C5FAA81002D49F8 /* firebase_rules.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = firebase_rules.rtf; sourceTree = "<group>"; };
+		20377FEC1C5FAA81002D49F8 /* DemoShopPayPal-ServerSide.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "DemoShopPayPal-ServerSide.zip"; sourceTree = "<group>"; };
+		20377FED1C5FAA81002D49F8 /* firebase_initial_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = firebase_initial_data.json; sourceTree = "<group>"; };
+		20377FF11C5FACC4002D49F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		20377FF21C5FACC4002D49F8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		20A4A99D1C5BB75C00702636 /* bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bag.png; path = Assets/bag.png; sourceTree = "<group>"; };
+		20A4A99E1C5BB75C00702636 /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card.png; path = Assets/card.png; sourceTree = "<group>"; };
+		20A4A99F1C5BB75C00702636 /* minus-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "minus-button.png"; path = "Assets/minus-button.png"; sourceTree = "<group>"; };
+		20A4A9A01C5BB75C00702636 /* plus-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus-button.png"; path = "Assets/plus-button.png"; sourceTree = "<group>"; };
+		20A4A9A11C5BB75C00702636 /* shopping-cart-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shopping-cart-gray.png"; path = "Assets/shopping-cart-gray.png"; sourceTree = "<group>"; };
+		20A4A9A21C5BB75C00702636 /* shopping-cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shopping-cart.png"; path = "Assets/shopping-cart.png"; sourceTree = "<group>"; };
+		20A4A9A91C5BB79200702636 /* ItemForSaleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemForSaleCell.swift; path = "Custom cells/ItemForSaleCell.swift"; sourceTree = "<group>"; };
+		20A4A9AA1C5BB79200702636 /* ShoppingCartItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingCartItemCell.swift; path = "Custom cells/ShoppingCartItemCell.swift"; sourceTree = "<group>"; };
+		20A4A9AE1C5BB7DC00702636 /* AuthenticationContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationContainerView.swift; path = "Container Views/AuthenticationContainerView.swift"; sourceTree = "<group>"; };
+		20A4A9B01C5BB80C00702636 /* Auxiliar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Auxiliar.swift; path = Objects/Auxiliar.swift; sourceTree = "<group>"; };
+		20A4A9B11C5BB80C00702636 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Objects/Device.swift; sourceTree = "<group>"; };
+		20A4A9B21C5BB80C00702636 /* ItemForSale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemForSale.swift; path = Objects/ItemForSale.swift; sourceTree = "<group>"; };
+		20A4A9B31C5BB80C00702636 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Objects/Reachability.swift; sourceTree = "<group>"; };
+		20A4A9B41C5BB80C00702636 /* ShoppingCartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingCartItem.swift; path = Objects/ShoppingCartItem.swift; sourceTree = "<group>"; };
 		20D756DC1C5674F7004FF064 /* DemoShop-PayPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DemoShop-PayPal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D756DF1C5674F7004FF064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20D756E11C5674F7004FF064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20D756E41C5674F7004FF064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20D756E61C5674F7004FF064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20D756E91C5674F7004FF064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +84,12 @@
 		20D756F01C5674F8004FF064 /* DemoShop-PayPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DemoShop-PayPalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D756F41C5674F8004FF064 /* DemoShop_PayPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoShop_PayPalTests.swift; sourceTree = "<group>"; };
 		20D756F61C5674F8004FF064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D757001C5679E1004FF064 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		20D757021C568F6E004FF064 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		20E13FB41C593FB7009557D4 /* Backend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Backend.swift; path = Objects/Backend.swift; sourceTree = "<group>"; };
+		AA5D6FA68DB887DFE651C15F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B9830411AD39EC6E2584648C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6083D1E374C6A682A66E9C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2E84572D4DE87561723FFD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +105,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E61EE29AF49703ED90FF68 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1329CF9136B7B8715110078C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA5D6FA68DB887DFE651C15F /* Pods.debug.xcconfig */,
+				BF6083D1E374C6A682A66E9C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20A4A99C1C5BB6BD00702636 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				20A4A99D1C5BB75C00702636 /* bag.png */,
+				20A4A99E1C5BB75C00702636 /* card.png */,
+				20A4A99F1C5BB75C00702636 /* minus-button.png */,
+				20A4A9A01C5BB75C00702636 /* plus-button.png */,
+				20A4A9A11C5BB75C00702636 /* shopping-cart-gray.png */,
+				20A4A9A21C5BB75C00702636 /* shopping-cart.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		20A4A9AD1C5BB7AE00702636 /* Container Views */ = {
+			isa = PBXGroup;
+			children = (
+				20A4A9AE1C5BB7DC00702636 /* AuthenticationContainerView.swift */,
+			);
+			name = "Container Views";
+			sourceTree = "<group>";
+		};
 		20D756D31C5674F7004FF064 = {
 			isa = PBXGroup;
 			children = (
+				20377FF11C5FACC4002D49F8 /* README.md */,
+				20377FF21C5FACC4002D49F8 /* LICENSE */,
+				20377FEB1C5FAA81002D49F8 /* firebase_rules.rtf */,
+				20377FEC1C5FAA81002D49F8 /* DemoShopPayPal-ServerSide.zip */,
+				20377FED1C5FAA81002D49F8 /* firebase_initial_data.json */,
+				20D757001C5679E1004FF064 /* Podfile */,
 				20D756DE1C5674F7004FF064 /* DemoShop-PayPal */,
 				20D756F31C5674F8004FF064 /* DemoShop-PayPalTests */,
 				20D756DD1C5674F7004FF064 /* Products */,
+				1329CF9136B7B8715110078C /* Pods */,
+				3CFD77523A05A8A67F695576 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +171,13 @@
 		20D756DE1C5674F7004FF064 /* DemoShop-PayPal */ = {
 			isa = PBXGroup;
 			children = (
+				20A4A99C1C5BB6BD00702636 /* Assets */,
+				20A4A9AD1C5BB7AE00702636 /* Container Views */,
+				20E13FB21C593F35009557D4 /* Custom cells */,
+				20E13FB31C593F52009557D4 /* Objects */,
+				20D757031C5694F8004FF064 /* View Controllers */,
+				20D757021C568F6E004FF064 /* BridgingHeader.h */,
 				20D756DF1C5674F7004FF064 /* AppDelegate.swift */,
-				20D756E11C5674F7004FF064 /* ViewController.swift */,
 				20D756E31C5674F7004FF064 /* Main.storyboard */,
 				20D756E61C5674F7004FF064 /* Assets.xcassets */,
 				20D756E81C5674F7004FF064 /* LaunchScreen.storyboard */,
@@ -96,6 +195,47 @@
 			path = "DemoShop-PayPalTests";
 			sourceTree = "<group>";
 		};
+		20D757031C5694F8004FF064 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2033D1911C5BB8B800C45D24 /* Products_VC.swift */,
+				2033D1921C5BB8B800C45D24 /* ShoppingCart_VC.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		20E13FB21C593F35009557D4 /* Custom cells */ = {
+			isa = PBXGroup;
+			children = (
+				20A4A9A91C5BB79200702636 /* ItemForSaleCell.swift */,
+				20A4A9AA1C5BB79200702636 /* ShoppingCartItemCell.swift */,
+			);
+			name = "Custom cells";
+			sourceTree = "<group>";
+		};
+		20E13FB31C593F52009557D4 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				20A4A9B01C5BB80C00702636 /* Auxiliar.swift */,
+				20E13FB41C593FB7009557D4 /* Backend.swift */,
+				2033D1951C5BBDA600C45D24 /* Constants.swift */,
+				20A4A9B11C5BB80C00702636 /* Device.swift */,
+				20A4A9B21C5BB80C00702636 /* ItemForSale.swift */,
+				20A4A9B31C5BB80C00702636 /* Reachability.swift */,
+				2001021C1C5CECC200A8193E /* ShippingMethods.swift */,
+				20A4A9B41C5BB80C00702636 /* ShoppingCartItem.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		3CFD77523A05A8A67F695576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9830411AD39EC6E2584648C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20D756F91C5674F8004FF064 /* Build configuration list for PBXNativeTarget "DemoShop-PayPal" */;
 			buildPhases = (
+				942FE5BC0ABCB8794D814551 /* Check Pods Manifest.lock */,
 				20D756D81C5674F7004FF064 /* Sources */,
 				20D756D91C5674F7004FF064 /* Frameworks */,
 				20D756DA1C5674F7004FF064 /* Resources */,
+				8D5B530265CB9C884C4517C8 /* Embed Pods Frameworks */,
+				3AE75545F2F9E3A08E1BEAEF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20D756FC1C5674F8004FF064 /* Build configuration list for PBXNativeTarget "DemoShop-PayPalTests" */;
 			buildPhases = (
+				1787A31E78631887FD792465 /* Check Pods Manifest.lock */,
 				20D756EC1C5674F8004FF064 /* Sources */,
 				20D756ED1C5674F8004FF064 /* Frameworks */,
 				20D756EE1C5674F8004FF064 /* Resources */,
+				C911118BDBCBD6BA5DE11E9F /* Embed Pods Frameworks */,
+				77A190FFBCF7407967351149 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +292,12 @@
 				TargetAttributes = {
 					20D756DB1C5674F7004FF064 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LN34JK9Z78;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 0;
+							};
+						};
 					};
 					20D756EF1C5674F8004FF064 = {
 						CreatedOnToolsVersion = 7.2;
@@ -178,8 +330,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				20D756EA1C5674F7004FF064 /* LaunchScreen.storyboard in Resources */,
+				20377FF01C5FAA81002D49F8 /* firebase_initial_data.json in Resources */,
 				20D756E71C5674F7004FF064 /* Assets.xcassets in Resources */,
+				20A4A9A31C5BB75C00702636 /* bag.png in Resources */,
+				20D757011C5679E1004FF064 /* Podfile in Resources */,
 				20D756E51C5674F7004FF064 /* Main.storyboard in Resources */,
+				20377FEF1C5FAA81002D49F8 /* DemoShopPayPal-ServerSide.zip in Resources */,
+				20A4A9A51C5BB75C00702636 /* minus-button.png in Resources */,
+				20A4A9A41C5BB75C00702636 /* card.png in Resources */,
+				20A4A9A71C5BB75C00702636 /* shopping-cart-gray.png in Resources */,
+				20377FF41C5FACC4002D49F8 /* LICENSE in Resources */,
+				20A4A9A61C5BB75C00702636 /* plus-button.png in Resources */,
+				20A4A9A81C5BB75C00702636 /* shopping-cart.png in Resources */,
+				20377FEE1C5FAA81002D49F8 /* firebase_rules.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +355,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1787A31E78631887FD792465 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3AE75545F2F9E3A08E1BEAEF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A190FFBCF7407967351149 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D5B530265CB9C884C4517C8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942FE5BC0ABCB8794D814551 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C911118BDBCBD6BA5DE11E9F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20D756D81C5674F7004FF064 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D756E21C5674F7004FF064 /* ViewController.swift in Sources */,
+				20A4A9B71C5BB80C00702636 /* ItemForSale.swift in Sources */,
+				20A4A9AF1C5BB7DC00702636 /* AuthenticationContainerView.swift in Sources */,
+				20A4A9AC1C5BB79200702636 /* ShoppingCartItemCell.swift in Sources */,
+				2033D1931C5BB8B800C45D24 /* Products_VC.swift in Sources */,
 				20D756E01C5674F7004FF064 /* AppDelegate.swift in Sources */,
+				20E13FB51C593FB7009557D4 /* Backend.swift in Sources */,
+				20A4A9AB1C5BB79200702636 /* ItemForSaleCell.swift in Sources */,
+				20A4A9B51C5BB80C00702636 /* Auxiliar.swift in Sources */,
+				20A4A9B91C5BB80C00702636 /* ShoppingCartItem.swift in Sources */,
+				20A4A9B81C5BB80C00702636 /* Reachability.swift in Sources */,
+				2001021D1C5CECC200A8193E /* ShippingMethods.swift in Sources */,
+				2033D1961C5BBDA600C45D24 /* Constants.swift in Sources */,
+				20377FF31C5FACC4002D49F8 /* README.md in Sources */,
+				20A4A9B61C5BB80C00702636 /* Device.swift in Sources */,
+				2033D1941C5BB8B800C45D24 /* ShoppingCart_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +526,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nissi Vieira Miranda (GHTXK5PX2T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nissi Vieira Miranda (GHTXK5PX2T)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -279,6 +549,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7813a2c3-944f-496d-832c-5654cc862d1c";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -301,7 +572,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nissi Vieira Miranda (GHTXK5PX2T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nissi Vieira Miranda (GHTXK5PX2T)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -316,6 +588,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "7813a2c3-944f-496d-832c-5654cc862d1c";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -323,28 +596,37 @@
 		};
 		20D756FA1C5674F8004FF064 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5D6FA68DB887DFE651C15F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nissi Vieira Miranda (GHTXK5PX2T)";
 				INFOPLIST_FILE = "DemoShop-PayPal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appmagic.DemoShop-PayPal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7813a2c3-944f-496d-832c-5654cc862d1c";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoShop-PayPal/BridgingHeader.h";
 			};
 			name = Debug;
 		};
 		20D756FB1C5674F8004FF064 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6083D1E374C6A682A66E9C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nissi Vieira Miranda (GHTXK5PX2T)";
 				INFOPLIST_FILE = "DemoShop-PayPal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appmagic.DemoShop-PayPal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7813a2c3-944f-496d-832c-5654cc862d1c";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoShop-PayPal/BridgingHeader.h";
 			};
 			name = Release;
 		};
 		20D756FD1C5674F8004FF064 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5D6FA68DB887DFE651C15F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "DemoShop-PayPalTests/Info.plist";
@@ -357,6 +639,7 @@
 		};
 		20D756FE1C5674F8004FF064 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6083D1E374C6A682A66E9C /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "DemoShop-PayPalTests/Info.plist";
@@ -386,6 +669,7 @@
 				20D756FB1C5674F8004FF064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20D756FC1C5674F8004FF064 /* Build configuration list for PBXNativeTarget "DemoShop-PayPalTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +678,7 @@
 				20D756FE1C5674F8004FF064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

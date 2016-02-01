@@ -1,0 +1,23 @@
+PODS:
+  - CardIO (5.2.2)
+  - Firebase (2.5.0)
+  - MBProgressHUD (0.9.2)
+  - PayPal-iOS-SDK (2.13.0):
+    - PayPal-iOS-SDK/CardIO (= 2.13.0)
+    - PayPal-iOS-SDK/Core (= 2.13.0)
+  - PayPal-iOS-SDK/CardIO (2.13.0):
+    - CardIO (~> 5.2.2)
+  - PayPal-iOS-SDK/Core (2.13.0)
+
+DEPENDENCIES:
+  - Firebase (>= 2.5.0)
+  - MBProgressHUD (~> 0.9.2)
+  - PayPal-iOS-SDK
+
+SPEC CHECKSUMS:
+  CardIO: 2460db0f4936f3441b08d51e3904b436d77ec8fc
+  Firebase: 744617c0733b45198f9486ebd5cac64ec2d10d79
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  PayPal-iOS-SDK: 931720b5e38fcece8f10a007ec46b283a272c1d9
+
+COCOAPODS: 0.39.0
