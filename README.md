@@ -1,5 +1,5 @@
 # DemoShopPayPal
-Demo Shop that uses Pay Pal as payment gateway and Firebase as backend and for Sign In/Sign Up.
+Shop demo that uses PayPal as payment gateway and Firebase as backend and for Sign In/Sign Up.
 
 <img src="https://cloud.githubusercontent.com/assets/6089173/12726050/47548544-c8f4-11e5-8916-14584e01783a.png" alt="Sign Up" width="320" height="568"/>
 <img src="https://cloud.githubusercontent.com/assets/6089173/12726051/4759bfdc-c8f4-11e5-80ae-13adadda5e57.png" alt="Products" width="320" height="568"/>
