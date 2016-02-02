@@ -159,8 +159,6 @@ class AuthenticationContainerView: UIViewController, UIGestureRecognizerDelegate
                 withCompletionBlock: {
                     
                     [unowned self](error, authData) in
-                    
-                    Auxiliar.hideLoadingHUDInView(self.view)
                 
                     guard error == nil else
                     {
@@ -180,6 +178,11 @@ class AuthenticationContainerView: UIViewController, UIGestureRecognizerDelegate
                     {
                         self.signingUp = false
                         self.saveNewClient(name, email: email)
+                        Auxiliar.hideLoadingHUDInView(self.view)
+                    }
+                    else
+                    {
+                        self.retrieveCurrentUser(email)
                     }
                     
                     self.nameTxtField.text = ""
@@ -196,11 +199,52 @@ class AuthenticationContainerView: UIViewController, UIGestureRecognizerDelegate
     
     func saveNewClient(name: String, email: String)
     {
-        let newClient = ["clientName": name, "clientEmail": email]
-        
         let ref = Firebase(url: Constants.baseURL + "Clients")
         let newClientRef = ref.childByAutoId()
+        
+        var clientId = "\(newClientRef)"
+            clientId = clientId.stringByReplacingOccurrencesOfString(Constants.baseURL + "Clients/", withString: "")
+        
+        let newClient = ["clientId": clientId, "clientName": name, "clientEmail": email]
+        
             newClientRef.setValue(newClient)
+        
+        Auxiliar.currentUserId = newClient["clientId"]!
+    }
+    
+    //-------------------------------------------------------------------------//
+    // MARK: Retrieve current user
+    //-------------------------------------------------------------------------//
+    
+    func retrieveCurrentUser(email: String)
+    {
+        let ref = Firebase(url: Constants.baseURL + "Clients")
+        
+        ref.observeEventType(.Value, withBlock:
+            {
+                (snapshot) in
+                
+                Auxiliar.hideLoadingHUDInView(self.view)
+                
+                if let response = snapshot.value as? [NSObject : AnyObject]
+                {
+                    let keys = response.keys
+                    
+                    for key in keys
+                    {
+                        let item = response[key] as! [String : String]
+                        let responseItemEmail = item["clientEmail"]
+                        
+                        if responseItemEmail == email
+                        {
+                            let responseItemId = item["clientId"]!
+                            Auxiliar.currentUserId = responseItemId
+                            
+                            break
+                        }
+                    }
+                }
+            })
     }
     
     //-------------------------------------------------------------------------//

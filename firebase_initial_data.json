@@ -85,14 +85,9 @@
     "imageAddr": "http://localhost/DemoShopPayPal-ServerSide/Product-Images/khaki-sweather.jpg"
   }
 ],
-"Orders" : [
-  {
-    "orderId": "XXDEMO00",
-    "clientName": "John Doe"
-  }
-],
 "Clients" : [
   {
+    "clientId": "XXDEMO00",
     "clientName": "John Doe",
     "clientEmail": "John_doe@email.com"
   }

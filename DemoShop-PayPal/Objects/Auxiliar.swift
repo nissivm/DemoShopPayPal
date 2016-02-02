@@ -9,6 +9,7 @@ import Foundation
 
 class Auxiliar
 {
+    static var currentUserId = ""
     
     //-------------------------------------------------------------------------//
     // MARK: MBProgressHUD
