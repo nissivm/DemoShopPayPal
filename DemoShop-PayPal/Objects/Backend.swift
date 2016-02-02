@@ -69,30 +69,10 @@ class Backend
             {
                 let jSon = try NSJSONSerialization.JSONObjectWithData(data!, options: .AllowFragments) as! [String : AnyObject]
                 
-                //print("backendResponse = \(jSon)")
-                
                 let status = jSon["status"] as! String
                 let message = jSon["message"] as! String
                 
                 completion(status: status, message: message)
-                
-//                guard status == "Success" else
-//                {
-//                    completion(status: status, message: message)
-//                    return
-//                }
-//                
-//                let chargeId = jSon["chargeId"]!
-//                
-//                ParseAPI.saveOrderToParse(chargeId,
-//                    description: self.assembleDescription(),
-//                    chargeAmount: self.valueToPay,
-//                    onCompletion: {
-//                        
-//                        (status) -> Void in
-//                        
-//                        completion(status: status, message: message)
-//                })
             }
             catch let error as NSError
             {

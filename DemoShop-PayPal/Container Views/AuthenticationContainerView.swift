@@ -58,6 +58,8 @@ class AuthenticationContainerView: UIViewController, UIGestureRecognizerDelegate
     
     @IBAction func signUpButtonTapped(sender: UIButton)
     {
+        removeKeyboard()
+        
         if Reachability.connectedToNetwork()
         {
             let name = nameTxtField.text!
@@ -123,6 +125,8 @@ class AuthenticationContainerView: UIViewController, UIGestureRecognizerDelegate
     
     @IBAction func signInButtonTapped(sender: UIButton)
     {
+        removeKeyboard()
+        
         if Reachability.connectedToNetwork()
         {
             let email = emailTxtField.text!
@@ -261,9 +265,7 @@ class AuthenticationContainerView: UIViewController, UIGestureRecognizerDelegate
     
     func textFieldShouldReturn(textField: UITextField) -> Bool
     {
-        tappedTextField!.resignFirstResponder()
-        tappedTextField = nil
-        animateConstraint(containerTopConstraint, toValue: 0)
+        removeKeyboard()
         
         return true
     }
@@ -274,11 +276,24 @@ class AuthenticationContainerView: UIViewController, UIGestureRecognizerDelegate
     
     func handleTap(recognizer : UITapGestureRecognizer)
     {
+        removeKeyboard()
+    }
+    
+    //-------------------------------------------------------------------------//
+    // MARK: Remove keyboard
+    //-------------------------------------------------------------------------//
+    
+    func removeKeyboard()
+    {
         if tappedTextField != nil
         {
             tappedTextField!.resignFirstResponder()
             tappedTextField = nil
-            animateConstraint(containerTopConstraint, toValue: 0)
+            
+            if containerTopConstraint.constant != 0
+            {
+                animateConstraint(containerTopConstraint, toValue: 0)
+            }
         }
     }
     

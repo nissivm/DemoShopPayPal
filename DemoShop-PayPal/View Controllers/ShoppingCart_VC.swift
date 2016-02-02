@@ -282,9 +282,13 @@ class ShoppingCart_VC: UIViewController, UITableViewDataSource, UITableViewDeleg
                                             "purchaseAmount" : purchaseAmount,
                                           "purchaseCurrency" : purchaseCurrency]
             
+            Auxiliar.showLoadingHUDWithText("Verifing payment...", forView: self.view)
+            
             Backend.verifyPayment(postDic, completion: {
                 
                 [unowned self](status, message) -> Void in
+                
+                Auxiliar.hideLoadingHUDInView(self.view)
                 
                 if status == "Success"
                 {
