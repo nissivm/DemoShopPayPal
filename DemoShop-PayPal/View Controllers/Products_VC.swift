@@ -10,7 +10,6 @@ import UIKit
 class Products_VC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UIScrollViewDelegate, ItemForSaleCellDelegate, ShoppingCart_VC_Delegate
 {
     @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet weak var warnLabel: UILabel!
     @IBOutlet weak var shoppingCartButton: UIButton!
     @IBOutlet weak var authenticationContainerView: UIView!
     
@@ -59,16 +58,7 @@ class Products_VC: UIViewController, UICollectionViewDataSource, UICollectionVie
     func sessionStarted()
     {
         authenticationContainerView.hidden = true
-        
-        if warnLabel.hidden == false
-        {
-            warnLabel.hidden = true
-        }
-        
-        if allItemsForSale.count == 0
-        {
-            retrieveProducts()
-        }
+        retrieveProducts()
     }
     
     //-------------------------------------------------------------------------//
@@ -92,19 +82,13 @@ class Products_VC: UIViewController, UICollectionViewDataSource, UICollectionVie
     
     func retrieveProducts()
     {
+        Auxiliar.showLoadingHUDWithText("Retrieving products...", forView: self.view)
+        
         guard Reachability.connectedToNetwork() else
         {
-            if itemsForSale.count == 0
-            {
-                let message = "No internet connection: No items to show"
-                warnLabel.hidden = false
-                warnLabel.text = message
-            }
-            
+            Auxiliar.hideLoadingHUDInView(self.view)
             return
         }
-        
-        Auxiliar.showLoadingHUDWithText("Retrieving products...", forView: self.view)
         
         let ref = Firebase(url: Constants.baseURL + "ItemsForSale")
         
@@ -327,15 +311,6 @@ class Products_VC: UIViewController, UICollectionViewDataSource, UICollectionVie
             constraint.constant *= multiplier
         }
         
-        for constraint in warnLabel.constraints
-        {
-            if (constraint.firstAttribute == .Height) ||
-               (constraint.firstAttribute == .Width)
-            {
-                constraint.constant *= multiplier
-            }
-        }
-        
         headerHeightConstraint.constant *= multiplier
         shoppingCartButtonHeightConstraint.constant *= multiplier
         
@@ -343,7 +318,6 @@ class Products_VC: UIViewController, UICollectionViewDataSource, UICollectionVie
         shopName.font =  UIFont(name: "HelveticaNeue-Light", size: fontSize)
         
         fontSize = 17.0 * multiplier
-        warnLabel.font =  UIFont(name: "HelveticaNeue-Light", size: fontSize)
         
         shoppingCartButton.imageEdgeInsets = UIEdgeInsetsMake(5 * multiplier, 144 * multiplier,
                                                               5 * multiplier, 144 * multiplier)

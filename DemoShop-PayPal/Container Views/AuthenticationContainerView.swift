@@ -60,30 +60,29 @@ class AuthenticationContainerView: UIViewController, UIGestureRecognizerDelegate
     {
         removeKeyboard()
         
-        if Reachability.connectedToNetwork()
-        {
-            let name = nameTxtField.text!
-            let email = emailTxtField.text!
-            let password = passwordTxtField.text!
-            
-            if name.characters.count > 0 &&
-               email.characters.count > 0 &&
-               password.characters.count > 0
-            {
-                Auxiliar.showLoadingHUDWithText("Signing up...", forView: self.view)
-                signUpWithFirebase(name, email: email, password: password)
-            }
-            else
-            {
-                Auxiliar.presentAlertControllerWithTitle("Error",
-                    andMessage: "Please fill in all fields", forViewController: self)
-            }
-        }
-        else
+        guard Reachability.connectedToNetwork() else
         {
             Auxiliar.presentAlertControllerWithTitle("No Internet Connection",
                 andMessage: "Make sure your device is connected to the internet.",
                 forViewController: self)
+            return
+        }
+        
+        let name = nameTxtField.text!
+        let email = emailTxtField.text!
+        let password = passwordTxtField.text!
+        
+        if name.characters.count > 0 &&
+            email.characters.count > 0 &&
+            password.characters.count > 0
+        {
+            Auxiliar.showLoadingHUDWithText("Signing up...", forView: self.view)
+            signUpWithFirebase(name, email: email, password: password)
+        }
+        else
+        {
+            Auxiliar.presentAlertControllerWithTitle("Error",
+                andMessage: "Please fill in all fields", forViewController: self)
         }
     }
     
@@ -127,28 +126,27 @@ class AuthenticationContainerView: UIViewController, UIGestureRecognizerDelegate
     {
         removeKeyboard()
         
-        if Reachability.connectedToNetwork()
-        {
-            let email = emailTxtField.text!
-            let password = passwordTxtField.text!
-            
-            if email.characters.count > 0 &&
-               password.characters.count > 0
-            {
-                Auxiliar.showLoadingHUDWithText("Signing in...", forView: self.view)
-                signInWithFirebase("", email: email, password: password)
-            }
-            else
-            {
-                Auxiliar.presentAlertControllerWithTitle("Error",
-                    andMessage: "Please insert username and password", forViewController: self)
-            }
-        }
-        else
+        guard Reachability.connectedToNetwork() else
         {
             Auxiliar.presentAlertControllerWithTitle("No Internet Connection",
                 andMessage: "Make sure your device is connected to the internet.",
                 forViewController: self)
+            return
+        }
+        
+        let email = emailTxtField.text!
+        let password = passwordTxtField.text!
+        
+        if email.characters.count > 0 &&
+            password.characters.count > 0
+        {
+            Auxiliar.showLoadingHUDWithText("Signing in...", forView: self.view)
+            signInWithFirebase("", email: email, password: password)
+        }
+        else
+        {
+            Auxiliar.presentAlertControllerWithTitle("Error",
+                andMessage: "Please insert username and password", forViewController: self)
         }
     }
     
@@ -262,7 +260,7 @@ class AuthenticationContainerView: UIViewController, UIGestureRecognizerDelegate
                 errorInfo.append("The specified email address is invalid.")
             
             case -6:
-                errorInfo.append("INVALID PASSWORD")
+                errorInfo.append("INCORRECT PASSWORD")
                 errorInfo.append("The specified password is incorrect.")
             
             case -8:

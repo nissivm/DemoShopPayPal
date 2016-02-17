@@ -98,6 +98,14 @@ class ShoppingCart_VC: UIViewController, UITableViewDataSource, UITableViewDeleg
     
     @IBAction func checkoutButtonTapped(sender: UIButton)
     {
+        guard Reachability.connectedToNetwork() else
+        {
+            Auxiliar.presentAlertControllerWithTitle("No Internet Connection",
+                andMessage: "Make sure your device is connected to the internet.",
+                forViewController: self)
+            return
+        }
+        
         let payment = PayPalPayment()
             payment.items = createPayPalItems()
             payment.paymentDetails = getPaymentDetails()
