@@ -297,12 +297,7 @@ class AuthenticationContainerView: UIViewController, UIGestureRecognizerDelegate
         if total > (self.view.frame.size.height/2)
         {
             let difference = total - (self.view.frame.size.height/2)
-            var newConstraint = containerTopConstraint.constant - difference
-            
-            if textField.tag == 13 // Email
-            {
-                newConstraint -= 30
-            }
+            let newConstraint = containerTopConstraint.constant - difference
             
             animateConstraint(containerTopConstraint, toValue: newConstraint)
         }

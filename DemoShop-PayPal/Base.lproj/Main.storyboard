@@ -68,7 +68,7 @@
                                             <constraint firstItem="3xg-xp-3P0" firstAttribute="leading" secondItem="PbH-71-VwK" secondAttribute="leading" constant="10" id="gF8-Ey-9Fq"/>
                                         </constraints>
                                     </view>
-                                    <textField opaque="NO" clipsSubviews="YES" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" placeholder="Your name" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="h87-2q-M2I" userLabel="Name Txt Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" placeholder="Your name" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="h87-2q-M2I" userLabel="Name Txt Field">
                                         <rect key="frame" x="20" y="75" width="280" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="YKP-kM-T1w"/>
@@ -87,7 +87,7 @@
                                             <constraint firstAttribute="height" constant="1" id="oOh-bd-ggX"/>
                                         </constraints>
                                     </view>
-                                    <textField opaque="NO" clipsSubviews="YES" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="D5t-DH-32k" userLabel="Email Txt Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="D5t-DH-32k" userLabel="Email Txt Field">
                                         <rect key="frame" x="20" y="125" width="280" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="RBO-Mc-4IC"/>
@@ -106,7 +106,7 @@
                                             <constraint firstAttribute="height" constant="1" id="69V-Xt-cXg"/>
                                         </constraints>
                                     </view>
-                                    <textField opaque="NO" clipsSubviews="YES" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Wgr-Q0-9j9" userLabel="Password Txt Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Wgr-Q0-9j9" userLabel="Password Txt Field">
                                         <rect key="frame" x="20" y="175" width="280" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="spB-iI-Kdf"/>
